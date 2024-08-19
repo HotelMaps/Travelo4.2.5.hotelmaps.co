@@ -1,0 +1,242 @@
+/*****************************************************************/
+/*
+/*** Footer Scss file Compile
+/*
+/*****************************************************************/
+footer.main-footer {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 30px;
+	background-color: #eef4f6;
+	margin: 0 $website_margin $website_margin;
+	padding: 140px 0 80px;
+
+	.widget-title, .widgettitle {
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 30px;
+		color: #1e2325;
+		text-transform: uppercase;
+		margin-bottom: 40px;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+
+		&.rss-widget-icon { width: auto; }
+	}
+
+	select {
+		background-color: #fff;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		margin-top: -5px;
+
+		li {
+			position: relative;
+			font-size: 15px;
+			font-weight: normal;
+			line-height: 35px;
+			padding-left: 20px;
+
+			a {
+				text-decoration: none;
+				color: $body_font_color;
+				transition: all .25s ease-in-out;
+			}
+
+			&:before {
+				content: "\f054";
+				display: block;
+				position: absolute;
+				left: 0;
+				font-family: "Font Awesome 5 Free";
+				font-weight: 900;
+				font-size: 10px;
+				height: 10px;
+				line-height: 10px;
+				width: 10px;
+				margin-top: 12px;
+				transition: all .25s ease-in-out;
+			}
+
+			&:hover { 
+				> a, &:before { color: $site_primary_color !important;  }
+			}
+		}
+	}
+
+	.widget_nav_menu ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+
+		.menu-item a {
+			position: relative;
+			display: inline-block;
+			color: $body_font_color;
+			text-decoration: none;
+
+			&:hover { color: $site_primary_color; }
+		}
+	}
+
+	.multi-currency.dropdown,
+	.multi-language.dropdown {
+		a.dropdown-toggle {
+			width: 100%;
+			background-color: #fff;
+			border: none;
+			box-shadow: 0px 1px 2px rgba(0, 0, 0, .1);
+		}	
+	}
+
+	.multi-currency.dropdown {
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+
+	.travel-news {
+		li {
+			padding-left: 0;
+
+			margin-bottom: 30px;
+
+			.date { color: #9e9e9e; }
+
+			.thumb {
+				float: left;
+
+				a { display: block; width: 64px; height:64px; background: #f5f5f5; }
+			}
+
+			&:before { content: none; }
+
+			&:after { clear: both; content: " "; display: table; }
+
+			.description {
+				padding-left: 78px;
+
+				.title a { 
+					color: $site_primary_color;
+
+					&:hover { opacity: .8; }
+				}
+
+				p {
+					line-height: 1.5;
+					margin-bottom: 0;
+				}
+
+				span.date { 
+					display: block; 
+					font-size: 0.9133em; 
+				}
+			}
+		}
+	}
+
+	.mc4wp-form-fields .with-icon {
+		position: relative;
+
+		input[type="email"] {
+			font-size: 0.87em;
+			line-height: 2;
+			color: #1e2325;
+			width: 100%; height: 40px;
+			border: none;
+			background-color: #fff;
+			padding: 8px 15px;
+			padding-right: 50px;
+			outline: none;
+			transition: all 0.15s ease-in-out;
+		}
+
+		button {
+			position: absolute;
+			top: 0; right: 0;
+			bottom: 0;
+			min-width: 40px;
+			border: none;
+			border-radius: 4px;
+			background-color: $site_third_color;
+			outline: none;
+			cursor: pointer;
+
+			i:before {
+				content: '\f002';
+				display: block;
+				font-family: "Font Awesome 5 Free";
+				font-size: 14px;
+				font-weight: 900;
+				font-style: normal;
+				color: #fff;
+			}
+
+			&:hover { box-shadow: inset 0px 0px 200px rgba(0, 0, 0, 0.05) !important; }
+		}
+	}
+
+	div[class*="footer-widget-"] {
+		> div { margin-bottom: 60px; }
+	}
+}
+
+.full-width-content footer.main-footer {
+	margin: 0;
+}
+
+.widget_travcontactwidget {
+	.description {
+		margin-bottom: 30px;
+	}
+
+	.contact-info {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 25px;
+
+		.phone-num {
+			font-size: 24px;
+			color: $site_primary_color;
+		}
+	}	
+}
+
+.social_links {
+	.social-icons {
+		display: flex;
+		flex-wrap: wrap;
+
+		a {
+			width: 30px; height: 30px;
+			border-radius: 4px;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			text-align: center;
+			background-color: #3b5898;
+
+			i { 
+				line-height: 30px;
+				color: #fff; 
+			}
+
+			&:nth-child(5n+1) { background-color: #3b5898; }
+			&:nth-child(5n+2) { background-color: #03b0ee; }
+			&:nth-child(5n+3) { background-color: #bd091c; }
+			&:nth-child(5n+4) { background-color: #557fa2; }
+			&:nth-child(5n) { background-color: #1871bc; }
+			&:last-child { margin-right: 0; }
+
+			&:hover { opacity: .8; }
+		}
+
+		&.circle-shape-icon a { border-radius: 50%; }
+	}
+}

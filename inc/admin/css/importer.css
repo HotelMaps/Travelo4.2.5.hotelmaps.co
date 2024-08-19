@@ -1,0 +1,260 @@
+
+/*----------------------------------------- Travelo Dashboard Page ---------------------------------------------*/
+.travelo-wrap.about-wrap .nav-tab-wrapper {
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+
+.travelo-wrap.about-wrap table {
+	margin-bottom: 15px;
+}
+
+.travelo-wrap.about-wrap table th {
+	font-weight: bold;
+}
+
+.travelo-wrap.about-wrap tbody tr td:first-child {
+	width: 35%;
+}
+
+.travelo-wrap.about-wrap mark {
+	background: transparent;
+}
+
+.travelo-wrap.about-wrap .error {
+	color: #ff0000;
+}
+
+.travelo-wrap.about-wrap .header-section {
+	margin: 40px 0;
+}
+
+.travelo-wrap.about-wrap .header-section h2 {
+	font-size: 28px;
+	font-weight: normal;
+	float: left;
+	margin: 0 40px 0 0;
+}
+
+.travelo-wrap.about-wrap .header-section .demo-tab-switch {
+	text-decoration: none;
+	font-size: 13px;
+	padding: 8px 15px;
+	float: left;
+	margin: 1px 20px 0 0;
+	border: solid 1px transparent;
+	box-shadow: none;
+}
+
+.travelo-wrap.about-wrap .header-section .demo-tab-switch.active  {
+	color: #666;
+	background: #fff;
+	border-color: #e4e4e4;
+	border-radius: 15px;
+}
+.travelo-wrap.about-wrap .header-section .demo-tab-switch.active.error {
+	color: #ff0000;
+}
+
+.travelo-install-plugins .theme-browser {
+	margin: 0 -15px;
+}
+
+.travelo-install-plugins .theme-browser.rendered .theme:hover .theme-screenshot img {
+	opacity: 1;
+}
+
+.travelo-install-plugins .theme-browser .theme {
+	padding: 0 15px;
+	margin: 0 0 30px 0;
+	width: 25%;
+	cursor: default;
+	border: none;
+}
+
+.travelo-install-plugins .theme-browser .theme:nth-child(4n+1) {
+	clear: both;
+}
+
+.travelo-install-plugins .plugin-info {
+	font-size: 13px;
+	font-weight: bold;
+	position: absolute;
+	text-align: center;
+	bottom: 5px;
+	width: 100%;
+}
+
+.travelo-install-plugins .theme-browser .theme-actions {
+	top: auto !important;
+	bottom: 0;
+	transform: none !important;
+}
+
+.travelo-install-plugins .theme-browser .theme-wrapper {
+	position: relative;
+	border: 1px solid #ccc;
+}
+
+.travelo-install-plugins .plugin-required, .travelo-install-plugins .plugin-update {
+	font-size: 14px;
+	background: #81b536;
+	color: #fff;
+	font-weight: 500;
+	padding: 7px 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 5px;
+}
+
+.travelo-wrap.about-wrap .import-success {
+	background: #fff;
+	border-left: 4px solid #46b450;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	margin: 10px 10px 20px 0;
+	padding: 1px 38px 1px 12px;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.travelo-wrap.about-wrap .import-success p, .travelo-wrap.about-wrap .import-error p {
+	padding: 2px;
+	margin: 7px 0;
+}
+
+.travelo-wrap.about-wrap .import-error {
+	background: #fff;
+	border-left: 4px solid #dc3232;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	margin: 0 0 50px 0;
+	padding: 1px 0 1px 12px;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.travelo-theme-demo {
+	float: left;
+	width: 100%;
+	border-top: 1px solid #ccc;
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+
+.travelo-theme-demo .demo-importer-loader {
+	background: rgba(255, 255, 255, .7);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	text-align: center;
+	display: none;
+}
+
+.travelo-theme-demo #import-status {
+	margin-bottom: 20px;
+}
+
+.travelo-theme-demo .demo-tab .demo {
+	width: 48%;
+	float: left;
+	position: relative;
+	margin-bottom: 20px;
+	margin-right: 2%;
+}
+
+.travelo-theme-demo .demo-tab .demo .demo-screenshot {
+	position: relative;
+}
+
+.travelo-theme-demo .demo-tab .demo .demo-screenshot:hover .demo-info {
+	visibility: visible;
+	opacity: 1;
+}
+
+.travelo-theme-demo .demo-tab .demo .demo-info {
+	font-size: 18px;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 60px 50px;
+	line-height: 30px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+	visibility: hidden;
+	opacity: 0;
+	transition: all .3s;
+}
+
+.travelo-theme-demo .demo-tab .demo .demo-actions {
+	position: absolute;
+	bottom: 35px;
+	right: 35px;
+	z-index: 9;
+}
+
+.travelo-theme-demo .demo-tab .demo .demo-actions a {
+	margin-left: 10px;
+}
+
+.travelo-theme-demo .demo-tab .demo .demo-disabled {
+    font-size: 18px;
+    color: #FFF;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 60px 50px;
+    line-height: 30px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all .3s;
+    z-index: 999;
+}
+
+.travelo-theme-demo #travelo-install-options {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.travelo-theme-demo #travelo-install-options h3 {
+	margin-top: 0;
+}
+
+.travelo-theme-demo #travelo-install-options label {
+	display: block;
+	padding: 10px 0;
+}
+
+.travelo-theme-demo .import-progress-bar {
+	margin-top: 10px;
+	background: #cccccc;
+	width: 100%;
+	height: 20px;
+	border: 1px solid #cccccc;
+}
+
+.travelo-theme-demo .import-progress-bar div {
+	background: #08c;
+	height: 20px;
+}
+
+.demo-tab.status-holder mark.yes span {
+	color: #49b246;
+}
+.demo-tab.status-holder mark.error {
+	color: #db3431;
+	font-weight: bold;
+}
+
+
+/*------------ Responsive ( Media Query ) ---------- */
+@media (max-width: 1280px){
+	.one-half {
+		width: 100%;
+	}
+}

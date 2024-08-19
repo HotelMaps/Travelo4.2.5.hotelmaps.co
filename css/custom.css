@@ -1,0 +1,136 @@
+.slideshow-bg .search-box-wrapper.style5 .search-box {
+	padding: 0;
+}
+.travelo-box .list-with-circle-icon li .title, .travelo-box.contact-us-box .contact-address li .title {
+	font-size: 1.1666em;
+	line-height: 1.1428em;
+}
+/*.box-title {
+	font-size: 1.3333em;
+}*/
+@media (min-width: 1200px) {
+	.slideshow-bg {
+		height: 800px;
+	}
+}
+.gm-style img {
+	max-width: none;
+}
+.photo-gallery .slides img{
+	max-width: 100%;
+	height: auto;
+}
+.row.container { margin-left: auto; margin-right: auto; }
+.vc_row.inner-container{ margin-left: 0; margin-right: 0; }
+
+.toggle-container.style2.box .panel .panel-content { padding: 10px 25px 30px 20px }
+.slides li > div > p { margin-bottom: 0 }
+.image-carousel .slides li > div, .image-carousel .slides li > div p { height: inherit }
+.image-box .box > .details > .description, .image-box.box > .details > .description { margin-bottom: 0 }
+.image-carousel figure > p { margin: 0 }
+.image-box .box > .details > .five-stars-container + .description, .image-box.box > .details > .five-stars-container + .description { margin-bottom: 15px }
+.custom-style1 { z-index: 1; left: 0; top: 30px }
+.custom-style2 { z-index: 2; left: 100px; top: 0 }
+.custom-style3 { z-index: 3; left: 250px; top: 20px }
+.custom-style4 { z-index: 4; left: 180px; top: 100px }
+.custom-style5 { z-index: 5; left: 50px }
+ul.image-block li p { margin: 0 }
+.image-box.style4 .box .details .glyphicon { letter-spacing: -0.5em }
+.image-box .details .detail > *:last-child { margin-bottom: 0 }
+.image-box.style6 .wpb_wrapper .box { margin: 0 }
+.image-box.style6 .vc_inner.row { margin-bottom: 30px }
+.image-box.style6 .vc_inner.row:last-child { margin: 0 }
+.image-box .box > .details > .feedback + .description, .image-box.box > .details > .feedback + .description { margin-bottom: 15px }
+.image-box.team .details p, .image-box.team .details .box-title { margin-bottom: 0 }
+.image-box.team .details .description { margin-bottom: 15px; }
+.pricing-table.box > p:last-child { margin-bottom: 0 }
+/*.tab-container .tab-content .tab-pane p { font-size: 1em; line-height: inherit; margin-bottom: 0 }*/
+.tab-container .tab-content .tab-pane img { margin: 0 15px 15px 0 }
+.tab-container.full-width-style .tab-content .tab-pane p { font-size: 1.0833em; line-height: 1.6666; margin-bottom: 15px }
+.investor-list .travelo-box > p { display: table-cell; vertical-align: middle; text-align: center; overflow: hidden; width: 100% }
+.image-carousel.investor-list .travelo-box, .image-carousel.investor-list li > div { height: 100px }
+.services.vc_row { margin-right: -5px }
+.services > .wpb_column { padding-right: 0 }
+.large-block.travelo-box { margin-bottom: 100px }
+.image-box .box .details > *:last-child, .image-box.box .details > *:last-child { margin-bottom: 0 }
+.image-box .box > div > .details, .image-box.box > div > .details { padding: 12px 15px }
+/*.image-box .box p { margin: 0 }*/
+.full-height { height: 100% }
+.icon-box .description small + p { margin: 0 }
+@media (max-width: 320px) {
+  .row .row { padding: 0; }
+}
+
+.listing-style3 .round-flight {
+	display: table;
+	width:100%;
+}
+
+.listing-style3 .round-flight:nth-child(2) {
+	margin-top: 20px;
+}
+
+.listing-style3 .round-flight .hidden-price {
+	visibility: hidden;
+}
+
+@media (max-width: 768px) {
+	.listing-style3.flight .box, .listing-style3.flight.box {
+		display: block;
+	}
+	.listing-style3.flight figure {
+		display: block;
+		width: 100%;
+		background: none;
+	}
+	.listing-style3.flight .details {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+
+	.listing-style3.flight .details .details-wrapper {
+		display: block;
+	}
+
+	.listing-style3.flight .details .details-wrapper>* {
+		display: block;
+		padding: 0
+		border: none;
+	}
+	.listing-style3.flight .box-title {
+		float: none;
+	}
+	.listing-style3.flight .details .details-wrapper>:first-child>* {
+		display: block;
+		border: none;
+	}
+	.listing-style3.flight .details .details-wrapper>*>:last-child {
+		text-align: left;
+		padding: 10px 0;
+	}
+	.listing-style3.flight .details .details-wrapper>*>:last-child .price {
+		text-align: left;
+	}
+
+	.listing-style3.flight .details .details-wrapper>*>* {
+		display: block;
+	}
+	.listing-style3.flight .details .details-wrapper .time {
+		padding: 0;
+		border: none;
+	}
+	.listing-style3.flight .details .details-wrapper .time>div:first-child {
+		display: block;
+	}
+	.listing-style3.flight .details .details-wrapper .time>div {
+		display: block;
+		width: 100%;
+		padding: 10px 0;
+		border: none;
+		float: none;
+	}
+}
+.tab-container .tab-content .tab-pane img {
+	max-width: 100%;
+}

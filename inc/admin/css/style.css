@@ -1,0 +1,107 @@
+.wp-list-table .column-id{
+	width: 5%;
+}
+.wp-list-table .column-rooms,
+.wp-list-table .column-price_per_day,
+.wp-list-table .column-price_per_day_child
+{
+	width: 7%;
+}
+.trav_admin_table {
+	margin: 20px 0;
+}
+.trav_admin_table th {
+	/* line-height: 40px; */
+	text-align: left;
+}
+.trav_admin_table td {
+	padding-left: 20px;
+}
+.trav_admin_table td > span {
+	padding-left: 20px;
+}
+.trav_admin_table td > input, .trav_admin_table td > textarea {
+	width: 250px;
+}
+.trav_admin_table tr.child_ages td input {
+	width:45px;
+}
+.trav_admin_table tr.child_cost, .trav_admin_table tr.end_date, .trav_admin_table tr.child_price {
+	display: none;
+}
+.trav_booking_manage_table th {
+	width: 120px;
+}
+.trav_currency_manage_table th {
+	width: 200px;
+}
+.one-half {
+	width: 48%;
+	float: left;
+}
+.child_cost .clone-field input[type="number"], .itinerary .clone-field input[type="number"] {
+	width: 50px;
+}
+.child_cost .clone-field td:first-child, .itinerary .clone-field td:first-child {
+	padding-left: 0;
+}
+.add-clone {
+	float: right;
+}
+.button.remove-clone {
+	margin-left: 20px;
+}
+
+#the-list .author-detail {
+	float: left;
+}
+#the-list .gravatar {
+	float: left;
+	margin-right: 10px;
+}
+table.reviews th#author_info, table.reviews th#accommodation_name {
+	width: 20%;
+}
+.five-stars-container {
+	display: inline-block;
+	position: relative;
+	font-family: 'Glyphicons Halflings';
+	font-size: 14px;
+	text-align: left;
+	/*cursor: default;*/
+	white-space: nowrap;
+	line-height: 1.2em;
+	color: #dbdbdb;
+}
+.five-stars-container:before {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 1px;
+	content: "\e006\e006\e006\e006\e006";
+	z-index: 0;
+}
+.five-stars-container .five-stars, .five-stars-container.editable-rating .ui-slider-range {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	background: #fff;
+	padding-left: 1px;
+}
+.five-stars-container .five-stars:before, .five-stars-container.editable-rating .ui-slider-range:before {
+	content: "\e006\e006\e006\e006\e006";
+	color: #fdb714;
+}
+.schedule_type_wrapper.hide {
+	display: none;
+}
+@font-face {
+	font-family: 'Glyphicons Halflings';
+	src: url('../../../fonts/glyphicons-halflings-regular.eot');
+	src: url('../../../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+@media (max-width: 1280px){
+	.one-half {
+		width: 100%;
+	}
+}

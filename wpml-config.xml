@@ -1,0 +1,57 @@
+<wpml-config>
+	<admin-texts>
+		<key name="travelo">
+			<key name="copyright" />
+			<key name="welcome_txt" />
+			<key name="acc_confirm_email_subject" />
+			<key name="acc_confirm_email_description" />
+			<key name="acc_update_email_subject" />
+			<key name="acc_update_email_description" />
+			<key name="acc_cancel_email_subject" />
+			<key name="acc_cancel_email_description" />
+			<key name="acc_admin_email_subject" />
+			<key name="acc_admin_email_description" />
+			<key name="acc_update_admin_email_subject" />
+			<key name="acc_update_admin_email_description" />
+			<key name="acc_cancel_admin_email_subject" />
+			<key name="acc_cancel_admin_email_description" />
+			<key name="acc_bowner_email_subject" />
+			<key name="acc_bowner_email_description" />
+			<key name="acc_update_bowner_email_subject" />
+			<key name="acc_update_bowner_email_description" />
+			<key name="acc_cancel_bowner_email_subject" />
+			<key name="acc_cancel_bowner_email_description" />
+			<key name="shop_sale_label" />
+			<key name="tour_confirm_email_subject" />
+			<key name="tour_confirm_email_description" />
+			<key name="tour_cancel_email_subject" />
+			<key name="tour_cancel_email_description" />
+			<key name="tour_admin_email_subject" />
+			<key name="tour_admin_email_description" />
+			<key name="tour_cancel_admin_email_subject" />
+			<key name="tour_cancel_admin_email_description" />
+			<key name="tour_bowner_email_subject" />
+			<key name="tour_bowner_email_description" />
+			<key name="tour_cancel_bowner_email_subject" />
+			<key name="tour_cancel_bowner_email_description" />
+			<key name="cruise_admin_email_description" />
+			<key name="cruise_bowner_email_description" />
+			<key name="cruise_cancel_admin_email_description" />
+			<key name="cruise_cancel_bowner_email_description" />
+			<key name="cruise_cancel_email_description" />
+			<key name="cruise_confirm_email_description" />
+			<key name="cruise_update_admin_email_description" />
+			<key name="cruise_update_bowner_email_description" />
+			<key name="cruise_update_email_description" />
+			<key name="car_admin_email_description" />
+			<key name="car_bowner_email_description" />
+			<key name="car_cancel_admin_email_description" />
+			<key name="car_cancel_bowner_email_description" />
+			<key name="car_cancel_email_description" />
+			<key name="car_confirm_email_description" />
+			<key name="car_update_admin_email_description" />
+			<key name="car_update_bowner_email_description" />
+			<key name="car_update_email_description" />
+		</key>
+	</admin-texts>
+</wpml-config>

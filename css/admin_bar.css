@@ -1,0 +1,27 @@
+.toplevel_page_travelo .dashicons-travelo-logo {
+    background: url('../images/admin/travelo_logo.png') no-repeat;
+    background-position: 0 0;
+}
+.toplevel_page_travelo:hover .dashicons-travelo-logo {
+    background-position: 0 -68px;
+}
+.toplevel_page_travelo.wp-has-current-submenu .dashicons-travelo-logo {
+    background-position: 0 -34px;
+}
+
+#wpadminbar #wp-toolbar #wp-admin-bar-travelo .ab-item .ab-icon {
+    width: 20px;
+    height: 20px;
+    background: url('../images/admin/travelo_logo.png') -8px 0 no-repeat !important;
+}
+#wpadminbar #wp-toolbar #wp-admin-bar-travelo:hover .ab-item .ab-icon {
+    background-position: -8px -68px !important;
+}
+.menu-item-settings:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.redux-container .ui-icon.ui-checkboxradio-icon {
+    display: none;
+}
